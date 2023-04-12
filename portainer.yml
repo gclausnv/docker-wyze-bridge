@@ -12,6 +12,6 @@ services:
             - 8189:8189/udp # WebRTC/ICE
             - 5000:5000 # WEB-UI
         environment:
-            - WYZE_EMAIL=$gclaus@gmail.com
-            - WYZE_PASSWORD=$1002121wZ!
-            - WB_IP=$192.168.217.205
+            - WYZE_EMAIL=gclaus@gmail.com
+            - WYZE_PASSWORD=1002121wZ!
+            - WB_IP=192.168.217.205
