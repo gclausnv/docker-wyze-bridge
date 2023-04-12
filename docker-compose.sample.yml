@@ -13,7 +13,7 @@ services:
             - 5000:5000 # WEB-UI
         environment:
             # [REQUIRED] Fill the following two lines:
-            - WYZE_EMAIL=
-            - WYZE_PASSWORD= 
+            - WYZE_EMAIL=gclaus@gmail.com
+            - WYZE_PASSWORD=1002121wZ!
             # [OPTIONAL] IP Address of the host to enable WebRTC e.g.,:
-            # - WB_IP=192.168.1.122
+            - WB_IP=192.168.217.205
