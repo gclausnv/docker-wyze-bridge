@@ -1,7 +1,7 @@
 version: "2.4"
 services:
     wyze-bridge:
-        container_name: wyze-bridge
+        container_name: wyze-bridgev2-4
         restart: unless-stopped
         image: mrlt8/wyze-bridge:latest
         ports:
